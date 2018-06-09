@@ -15,19 +15,19 @@
 
 ### INHERIT FROM YOSHIRO
 include device/sony/yoshino/BoardConfigPlatform.mk
-include vendor/sony/lilac/BoardConfigVendor.mk
+include vendor/sony/poplar/BoardConfigVendor.mk
 
-DEVICE_PATH := device/sony/lilac
+DEVICE_PATH := device/sony/poplar
 
 PRODUCT_PLATFORM := yoshino
 
 ### BOOTLOADER
-TARGET_BOOTLOADER_BOARD_NAME := G8441
+TARGET_BOOTLOADER_BOARD_NAME := G8341
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-lilac_defconfig
+TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_defconfig
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=lilac
+BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar
 
 ### PARTITIONS
 # See also /proc/partitions on the device

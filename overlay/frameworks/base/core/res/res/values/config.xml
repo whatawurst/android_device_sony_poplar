@@ -112,8 +112,8 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">false</bool>
 
-    <string name="config_mms_user_agent">SonyG8441</string>
+    <string name="config_mms_user_agent">SonyG8341</string>
 
     <!-- MMS user agent prolfile url -->
-    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/G8441R4711.xml</string>
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/G8341R4711.xml</string>
 </resources>

@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=lilac
+DEVICE=poplar
 VENDOR=sony
 
 INITIAL_COPYRIGHT_YEAR=2017

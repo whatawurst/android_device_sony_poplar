@@ -1,10 +1,10 @@
-Device configuration for Sony Xperia XZ1 Compact (lilac)
+Device configuration for Sony Xperia XZ1 (poplar)
 ========================================================
 
 Description
 -----------
 
-This repository is for LineageOS 15.1 on Sony Xperia XZ1 Compact (lilac).
+This repository is for LineageOS 15.1 on Sony Xperia XZ1 (poplar).
 
 How to build LineageOS
 ----------------------
@@ -28,7 +28,7 @@ How to build LineageOS
             <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" />
             <project name="cryptomilk/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" />
             <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" />
-            <project name="cryptomilk/android_device_sony_lilac" path="device/sony/lilac" remote="github" />
+            <project name="Myself5/android_device_sony_poplar" path="device/sony/poplar" remote="github" />
         </manifest>
 
 * Sync the repo:
@@ -37,13 +37,13 @@ How to build LineageOS
 
 * Extract vendor blobs
 
-        cd device/sony/lilac
+        cd device/sony/poplar
         ./extract-files.sh
 
 * Setup the environment
 
         source build/envsetup.sh
-        lunch lineage_lilac-userdebug
+        lunch lineage_poplar-userdebug
 
 * Build LineageOS
 

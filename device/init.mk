@@ -1,6 +1,6 @@
 ### DEVICE INIT
 PRODUCT_PACKAGES += \
-    init.recovery.lilac \
-    init.lilac \
-    fstab.lilac \
-    ueventd.lilac
+    init.recovery.poplar \
+    init.poplar \
+    fstab.poplar \
+    ueventd.poplar
