@@ -23,7 +23,12 @@ PRODUCT_MODEL := G8341
 PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
+<<<<<<< HEAD:lineage_poplar.mk
     PRODUCT_NAME=poplar
+=======
+    PRODUCT_NAME=lilac \
+    PRIVATE_BUILD_DESC="lilac-user 9 YOSHINO-2.2.0-190326-1903 1 dev-keys"
+>>>>>>> 3b4a706... lineage: Add build description from 47.2.A.10.45:lineage_lilac.mk
 
 BUILD_FINGERPRINT := Sony/poplar/poplar:9/YOSHINO-2.2.0-190326-1903/1:user/dev-keys
 
