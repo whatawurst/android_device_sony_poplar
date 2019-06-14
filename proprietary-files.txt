@@ -272,6 +272,7 @@ etc/customization/modem/amss_fsg_poplar_elisa_finland_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_poplar_emt_estonia_volte_vilte_tar.mbn
 etc/customization/modem/amss_fsg_poplar_entel_cl_ims_tar.mbn
 etc/customization/modem/amss_fsg_poplar_entel_pe_ims_tar.mbn
+etc/customization/modem/amss_fsg_poplar_free_france_tar.mbn
 etc/customization/modem/amss_fsg_poplar_gteb_ims_tar.mbn
 etc/customization/modem/amss_fsg_poplar_hutch_austria_tar.mbn
 etc/customization/modem/amss_fsg_poplar_hutch_austria_volte_vowifi_tar.mbn
