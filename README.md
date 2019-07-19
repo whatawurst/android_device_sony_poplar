@@ -4,7 +4,7 @@ Device configuration for Sony Xperia XZ1 (poplar)
 Description
 -----------
 
-This repository is for LineageOS 15.1 on Sony Xperia XZ1 (poplar).
+This repository is for LineageOS 16.0 on Sony Xperia XZ1 (poplar).
 
 How to build LineageOS
 ----------------------
@@ -16,7 +16,7 @@ How to build LineageOS
 
 * Initialize the repo:
 
-        repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+        repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
 
 * Create a local manifest:
 
