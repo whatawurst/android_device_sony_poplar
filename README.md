@@ -11,8 +11,8 @@ How to build LineageOS
 
 * Make a workspace:
 
-        mkdir -p ~/lineageos/repo
-        cd ~/lineageos/repo
+        mkdir -p ~/lineageos
+        cd ~/lineageos
 
 * Initialize the repo:
 
