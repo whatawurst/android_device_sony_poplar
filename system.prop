@@ -15,9 +15,6 @@ debug.sf.latch_unsignaled=1
 # Enable VDS WFD solution
 persist.hwc.enable_vds=1
 
-# Skip HDR Tone map on Lilac
-sys.hwc_disable_hdr=1
-
 # Display Properties as per treble compliance
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.enable_fb_ubwc=1
