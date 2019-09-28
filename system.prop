@@ -3,9 +3,6 @@
 ### USB
 ro.usb.pid_suffix=1F3
 
-### DISPLAY
-ro.sf.lcd_density=480
-
 # HWComposer
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
