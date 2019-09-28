@@ -1,7 +1,7 @@
 # system prop for poplar
 
 ### USB
-ro.usb.pid_suffix=1F3
+ro.vendor.usb.pid_suffix=1F3
 
 # HWComposer
 debug.sf.enable_hwc_vds=1
