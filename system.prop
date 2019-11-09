@@ -6,7 +6,7 @@ ro.vendor.usb.pid_suffix=1F3
 ### RADIO
 # This will be set by loading
 # /oem/system-properties/config.prop
-# ro.telephony.default_network=9
+ro.telephony.default_network=9
 
 ### API
 # First released API level
@@ -26,3 +26,20 @@ ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.2.A.11.228
 ro.semc.product.name=Xperia XZ1
 ro.semc.product.device=G83
+
+# /oem/cust.prop
+ro.product.brand=Sony
+ro.product.name=G8341
+ro.build.fingerprint=Sony/G8341/G8341:9/47.2.A.11.228/3311891731:user/release-keys
+
+######################## Customized property values #########################
+ro.semc.version.cust=1310-4290
+ro.semc.version.cust_revision=R6C
+ro.somc.customerid=436
+ro.oem.key1=1310-4290
+#############################################################################
+
+# /oem/config.prop
+######################## Customized property values #########################
+ro.cst.prm=1310-4290:R6C
+#############################################################################
