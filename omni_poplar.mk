@@ -9,17 +9,16 @@ $(call inherit-product, device/sony/poplar/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 ### BOOTANIMATION
-# vendor/lineage/config/common_full_phone.mk
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
-# vendor/lineage/config/common.mk
 TARGET_BOOTANIMATION_HALF_RES := true
 
-### LINEAGE
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+### OMNI
+$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_poplar
+PRODUCT_NAME := omni_poplar
 PRODUCT_DEVICE := poplar
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8341
