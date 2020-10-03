@@ -64,999 +64,362 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
 
     <!-- Carrier-specific Cosmote GR -->
     <carrier_config mcc="202" mnc="01">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="50" />
-        <boolean name="enableGroupMms" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific customized BLX -->
     <carrier_config mcc="204" mnc="02" imsi="^20402?(([7-8]([0]|[5])[0])|([9][0][0-6])).*">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="204" mnc="02" imsi="^20402?([0]([2-3]|[8])|[1]([0-1]|[3-8])).*">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
-    </carrier_config>
-    <carrier_config mcc="204" mnc="04">
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="enabledMMS" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="carrier_volte_available_bool" value="false" />
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="204" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="enabledMMS" value="false" />
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
-    </carrier_config>
-    <carrier_config mcc="204" mnc="12">
-        <boolean name="enabledMMS" value="false" />
-        <boolean name="carrier_volte_available_bool" value="false" />
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific T-Mobile NL -->
     <carrier_config mcc="204" mnc="16" spn="T-Mobile  NL">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="3" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="config_cellBroadcastAppLinks" value="true" />
     </carrier_config>
     <carrier_config mcc="204" mnc="20" spn="T-Mobile  NL">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="3" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="config_cellBroadcastAppLinks" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized BLX -->
     <carrier_config mcc="204" mnc="69">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="enabledMMS" value="false" />
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific Proximus (Vfe) BE -->
     <carrier_config mcc="206" mnc="01">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="255" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized UK -->
-    <carrier_config mcc="206" mnc="01" gid1="28">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized FR -->
-    <carrier_config mcc="206" mnc="01" gid1="4E">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="true" />
-    </carrier_config>
-    <carrier_config mcc="206" mnc="10" gid1="4E">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="true" />
-    </carrier_config>
-    <carrier_config mcc="208" mnc="01" gid1="4E">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Orange MCV FR-ES-PL-SK-RO -->
     <carrier_config mcc="208" mnc="01" gid1="FF" spn="Orange F">
-        <int name="recipientLimit" value="50" />
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="208" mnc="01" spn="Orange F">
-        <int name="recipientLimit" value="50" />
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific Altice FR-PT -->
     <carrier_config mcc="208" mnc="10">
-        <int name="maxMessageSize" value="614400" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized FR -->
-    <carrier_config mcc="208" mnc="10" gid1="4E">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="true" />
-    </carrier_config>
-    <carrier_config mcc="208" mnc="15">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="true" />
-    </carrier_config>
     <carrier_config mcc="208" mnc="20" spn="Bouygues Telecom">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="true" />
-    </carrier_config>
-    <carrier_config mcc="208" mnc="20" gid1="4E">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="true" />
-    </carrier_config>
-    <carrier_config mcc="208" mnc="26" gid1="4E">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="614400" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Vodafone ES -->
     <carrier_config mcc="214" mnc="01">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="5" />
-        <boolean name="enableGroupMms" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Orange MCV FR-ES-PL-SK-RO -->
-    <carrier_config mcc="214" mnc="03" spn="JAZZTEL">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
-    </carrier_config>
-    <carrier_config mcc="214" mnc="03" imsi="^21403[^5][0-9]*" spn="JAZZTEL">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
-    </carrier_config>
-    <carrier_config mcc="214" mnc="03" spn="simyo">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
-    </carrier_config>
-    <carrier_config mcc="214" mnc="03" imsi="2140358" spn="simyo">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
-    </carrier_config>
     <carrier_config mcc="214" mnc="03" imsi="^21403[^5][0-9]*">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
     </carrier_config>
     <carrier_config mcc="214" mnc="03" spn="Orange">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized IBE -->
-    <carrier_config mcc="214" mnc="04" spn="Yoigo">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Orange MCV FR-ES-PL-SK-RO -->
-    <carrier_config mcc="214" mnc="07" spn="JAZZTEL">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
-    </carrier_config>
-    <carrier_config mcc="214" mnc="19" spn="simyo">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
-    </carrier_config>
-    <carrier_config mcc="214" mnc="21" spn="JAZZTEL">
-        <int name="maxMessageSize" value="1048576" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <int name="smsToMmsTextThreshold" value="200" />
-    </carrier_config>
-
-    <!-- Carrier-specific Telenor HU -->
-    <carrier_config mcc="216" mnc="01">
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific Telenor HU -->
-    <carrier_config mcc="216" mnc="30">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="recipientLimit" value="50" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="50" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="enableWapPushSI" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific Vodafone HU -->
-    <carrier_config mcc="216" mnc="70">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific TIM IT -->
     <carrier_config mcc="222" mnc="01">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <boolean name="enableGroupMms" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Vodafone RO -->
-    <carrier_config mcc="226" mnc="01">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
     </carrier_config>
 
     <!-- Carrier-specific Orange MCV FR-ES-PL-SK-RO -->
     <carrier_config mcc="226" mnc="10" spn="orange">
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific Swisscom CH -->
     <carrier_config mcc="228" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized CH -->
     <carrier_config mcc="228" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
     <carrier_config mcc="228" mnc="03">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized CE1 -->
-    <carrier_config mcc="230" mnc="02">
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific Vodafone CZ -->
     <carrier_config mcc="230" mnc="03" spn="Vodafone CZ">
-        <int name="maxMessageSize" value="307200" />
-        <int name="recipientLimit" value="10" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Orange MCV FR-ES-PL-SK-RO -->
     <carrier_config mcc="231" mnc="01" spn="Orange">
-        <int name="recipientLimit" value="10" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific Mobilkom A1 AT -->
     <carrier_config mcc="232" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific T-Mobile AT -->
-    <carrier_config mcc="232" mnc="03">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="5" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
-    </carrier_config>
-    <carrier_config mcc="232" mnc="04">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="5" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
-    </carrier_config>
-    <carrier_config mcc="232" mnc="07">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="5" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
-    </carrier_config>
-    <carrier_config mcc="232" mnc="15">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="5" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific O2 Pay monthly UK -->
     <carrier_config mcc="234" mnc="02">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="10">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="11">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Vodafone UK -->
     <carrier_config mcc="234" mnc="15">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized UK -->
-    <carrier_config mcc="234" mnc="20" gid1="0303">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific EE UK -->
     <carrier_config mcc="234" mnc="30">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="234" mnc="30" gid1="B3">
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="234" mnc="30" gid1="C3">
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized UK -->
-    <carrier_config mcc="234" mnc="30" gid1="28">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="true" />
-    </carrier_config>
-    <carrier_config mcc="234" mnc="30" spn="Virgin">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific EE UK -->
     <carrier_config mcc="234" mnc="33">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific Virgin Mobile UK -->
-    <carrier_config mcc="234" mnc="38">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="5" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific customized UK -->
     <carrier_config mcc="234" mnc="57">
-        <boolean name="carrier_volte_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized NOBA -->
     <carrier_config mcc="238" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="238" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="238" mnc="06">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-    </carrier_config>
-    <carrier_config mcc="238" mnc="20" spn="TELIA DK">
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="240" mnc="01" spn="Telia">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="240" mnc="01" spn="halebop">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="240" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="240" mnc="02" spn="3">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="240" mnc="02" spn="hallon">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific customized UK -->
     <carrier_config mcc="240" mnc="07" gid1="0C">
-        <boolean name="carrier_volte_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized NOBA -->
     <carrier_config mcc="240" mnc="07" imsi="^24007?(([0-5]|[7-9])|600).*">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="240" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="242" mnc="01">
-        <int name="maxMessageSize" value="2048000" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="242" mnc="02">
-        <int name="maxMessageSize" value="1024000" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="242" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="244" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="244" mnc="12">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="246" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-    </carrier_config>
-    <carrier_config mcc="246" mnc="02">
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-    </carrier_config>
-    <carrier_config mcc="247" mnc="05">
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
     <carrier_config mcc="248" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-    </carrier_config>
-    <carrier_config mcc="248" mnc="02">
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-    </carrier_config>
-    <carrier_config mcc="248" mnc="03">
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific T-Mobile PL -->
     <carrier_config mcc="260" mnc="02">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="recipientLimit" value="10" />
-        <int name="smsToMmsTextThreshold" value="50" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific Orange MCV FR-ES-PL-SK-RO -->
     <carrier_config mcc="260" mnc="03">
-        <int name="recipientLimit" value="10" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="260" mnc="03" spn="Orange">
-        <int name="recipientLimit" value="10" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="260" mnc="03" spn="Orange PL">
-        <int name="recipientLimit" value="10" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="260" mnc="03" spn="nju">
-        <int name="recipientLimit" value="10" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific customized DE -->
     <carrier_config mcc="262" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific Telekom.de DE -->
     <carrier_config mcc="262" mnc="01" gid1="01">
-        <int name="maxMessageSize" value="307200" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="01" gid1="02">
-        <int name="maxMessageSize" value="307200" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="01" gid1="03">
-        <int name="maxMessageSize" value="307200" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="01" gid1="99">
-        <int name="maxMessageSize" value="307200" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="01" spn="congstar">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="262" mnc="01" spn="congstar.de">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
     </carrier_config>
 
     <!-- Carrier-specific Vodafone DE -->
     <carrier_config mcc="262" mnc="02">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="4" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized DE -->
@@ -1064,281 +427,82 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="77">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
 
     <!-- Carrier-specific Vodafone DE -->
     <carrier_config mcc="262" mnc="09">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized IBE -->
-    <carrier_config mcc="268" mnc="01">
-        <boolean name="enableMMSDeliveryReports" value="true" />
-        <boolean name="enableSMSDeliveryReports" value="true" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Altice FR-PT -->
-    <carrier_config mcc="268" mnc="06">
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized BLX -->
     <carrier_config mcc="270" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized Vodafone IE -->
-    <carrier_config mcc="272" mnc="01">
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="9" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific 3 IE -->
-    <carrier_config mcc="272" mnc="02">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="recipientLimit" value="50" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-    <carrier_config mcc="272" mnc="05">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="recipientLimit" value="50" />
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized Meteor IE -->
     <carrier_config mcc="272" mnc="03">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-    </carrier_config>
-
-    <!-- Carrier-specific MobilTel EAD BG -->
-    <carrier_config mcc="284" mnc="01">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="maxMessageSize" value="512000" />
-        <int name="smsToMmsTextThreshold" value="5" />
     </carrier_config>
 
     <!-- Carrier-specific customized TR -->
     <carrier_config mcc="286" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
     <carrier_config mcc="286" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
     <carrier_config mcc="286" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
     <carrier_config mcc="286" mnc="04">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Mobitel SI -->
-    <carrier_config mcc="293" mnc="41">
-        <int name="recipientLimit" value="30" />
-        <int name="maxMessageSize" value="2097152" />
-        <boolean name="enableGroupMms" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Telcel GSM MX -->
     <carrier_config mcc="334" mnc="02">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="recipientLimit" value="50" />
-        <int name="maxMessageSize" value="1024000" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
     <carrier_config mcc="334" mnc="20">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="recipientLimit" value="50" />
-        <int name="maxMessageSize" value="1024000" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Altice FR-PT -->
-    <carrier_config mcc="340" mnc="02">
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Orange DO -->
-    <carrier_config mcc="370" mnc="01">
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized GEL -->
-    <carrier_config mcc="370" mnc="02">
-        <boolean name="config_cellBroadcastAppLinks" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific customized KR -->
     <carrier_config mcc="450" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="recipientLimit" value="100" />
-        <int name="maxMessageSize" value="1048576" />
-        <int name="smsToMmsTextThreshold" value="1" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="450" mnc="06">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="recipientLimit" value="100" />
-        <int name="maxMessageSize" value="1048576" />
-        <int name="smsToMmsTextThreshold" value="1" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
     </carrier_config>
     <carrier_config mcc="450" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="enableMMSDeliveryReports" value="false" />
-        <boolean name="enableSMSDeliveryReports" value="false" />
-        <int name="recipientLimit" value="100" />
-        <int name="maxMessageSize" value="1048576" />
-        <int name="smsToMmsTextThreshold" value="1" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific 2Degrees NZ -->
-    <carrier_config mcc="530" mnc="20">
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="enableGroupMms" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific Orange MCV FR-ES-PL-SK-RO -->
-    <carrier_config mcc="647" mnc="00">
-        <int name="recipientLimit" value="10" />
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="200" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="smsDeliveryReportSettingOnByDefault" value="false" />
-    </carrier_config>
-
-    <!-- Carrier-specific Altice FR-PT -->
-    <carrier_config mcc="647" mnc="10">
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Vodacom ZA -->
     <carrier_config mcc="655" mnc="01">
-        <int name="maxMessageSize" value="307200" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
 
@@ -1346,172 +510,58 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
      <carrier_config mcc="655" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <int name="maxMessageSize" value="307200" />
     </carrier_config>
     <carrier_config mcc="655" mnc="07">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <int name="maxMessageSize" value="307200" />
     </carrier_config>
     <carrier_config mcc="655" mnc="07" spn="Cell C">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <int name="maxMessageSize" value="307200" />
     </carrier_config>
     <carrier_config mcc="655" mnc="10">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <int name="maxMessageSize" value="307200" />
-    </carrier_config>
-
-    <!-- Carrier-specific Claro GT -->
-    <carrier_config mcc="706" mnc="01">
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-    </carrier_config>
-    <carrier_config mcc="708" mnc="001">
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-    </carrier_config>
-    <carrier_config mcc="710" mnc="21">
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-    </carrier_config>
-    <carrier_config mcc="710" mnc="73">
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-    </carrier_config>
-    <carrier_config mcc="712" mnc="03">
-        <int name="smsToMmsTextThreshold" value="10" />
-        <boolean name="enableGroupMms" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Movistar PE -->
     <carrier_config mcc="716" mnc="06">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <int name="recipientLimit" value="10" />
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="255" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Movistar AR -->
     <carrier_config mcc="722" mnc="70">
-        <int name="maxMessageSize" value="307200" />
-        <int name="smsToMmsTextThreshold" value="255" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Claro AR -->
     <carrier_config mcc="722" mnc="310">
-        <int name="maxMessageSize" value="307200" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="722" mnc="320">
-        <int name="maxMessageSize" value="307200" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="722" mnc="330">
-        <int name="maxMessageSize" value="307200" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Personal AR -->
-    <carrier_config mcc="722" mnc="340">
-        <int name="maxMessageSize" value="307200" />
-    </carrier_config>
-    <carrier_config mcc="722" mnc="341">
-        <int name="maxMessageSize" value="307200" />
     </carrier_config>
 
     <!-- Carrier-specific Movistar CO -->
     <carrier_config mcc="732" mnc="102">
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="255" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
     </carrier_config>
     <carrier_config mcc="732" mnc="123">
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="255" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="smsEncodingChangeable" value="false" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Movistar EC -->
-    <carrier_config mcc="740" mnc="00">
-        <int name="maxMessageSize" value="614400" />
-        <int name="smsToMmsTextThreshold" value="255" />
-        <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-        <boolean name="allowEnablingWapPushSI" value="false" />
-        <boolean name="enableWapPushSI" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Claro PY -->
-    <carrier_config mcc="744" mnc="02">
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific Claro UY -->
-    <carrier_config mcc="748" mnc="10">
-        <int name="maxMessageSize" value="307200" />
-        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
 
 </carrier_config_list>
