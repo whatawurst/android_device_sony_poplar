@@ -278,4 +278,49 @@
         <sim_config_id>S59.2</sim_config_id>
         <sim_config_id>S9105.1</sim_config_id>
     </configuration>
+    <configuration config_id="902">
+        <sim_config_id>S9901.1</sim_config_id>
+    </configuration>
+    <configuration config_id="903">
+        <sim_config_id>S273.1</sim_config_id>
+    </configuration>
+    <configuration config_id="905">
+        <sim_config_id>S181.1</sim_config_id>
+    </configuration>
+    <configuration config_id="906">
+        <sim_config_id>S176.1</sim_config_id>
+    </configuration>
+    <configuration config_id="908">
+        <sim_config_id>S228.1</sim_config_id>
+    </configuration>
+    <configuration config_id="909">
+        <sim_config_id>S174.1</sim_config_id>
+    </configuration>
+    <configuration config_id="911">
+        <sim_config_id>S23.1</sim_config_id>
+    </configuration>
+    <configuration config_id="913">
+        <sim_config_id>S8657.1</sim_config_id>
+    </configuration>
+    <configuration config_id="915">
+        <sim_config_id>S26.1</sim_config_id>
+    </configuration>
+    <configuration config_id="916">
+        <sim_config_id>S28.1</sim_config_id>
+    </configuration>
+    <configuration config_id="918">
+        <sim_config_id>S52.1</sim_config_id>
+    </configuration>
+    <configuration config_id="921">
+        <sim_config_id>S91.1</sim_config_id>
+    </configuration>
+    <configuration config_id="923">
+        <sim_config_id>S85.1</sim_config_id>
+    </configuration>
+    <configuration config_id="925">
+        <sim_config_id>S405.1</sim_config_id>
+    </configuration>
+    <configuration config_id="927">
+        <sim_config_id>S414.1</sim_config_id>
+    </configuration>
 </configurations>
