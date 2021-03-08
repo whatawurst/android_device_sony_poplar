@@ -145,6 +145,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
 
+    <!-- Custom addition -->
+    <carrier_config mcc="214" mnc="07">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+
     <!-- Carrier-specific TIM IT -->
     <carrier_config mcc="222" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
