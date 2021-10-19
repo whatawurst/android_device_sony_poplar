@@ -10,6 +10,9 @@ ifeq ($(WITH_FDROID),true)
 $(call inherit-product, vendor/fdroid/fdroid-vendor.mk)
 endif
 
+### APEX
+PRODUCT_COMPRESSED_APEX := false
+
 ### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
