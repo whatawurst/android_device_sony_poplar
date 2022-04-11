@@ -347,7 +347,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     </carrier_config>
     <carrier_config mcc="248" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific T-Mobile PL -->
@@ -437,17 +436,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <carrier_config mcc="262" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="262" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="262" mnc="77">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Vodafone DE -->
@@ -499,15 +495,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <!-- Carrier-specific customized KR -->
     <carrier_config mcc="450" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="450" mnc="06">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="450" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Vodacom ZA -->
@@ -539,14 +532,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <!-- Carrier-specific Movistar PE -->
     <carrier_config mcc="716" mnc="06">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Movistar AR -->
     <carrier_config mcc="722" mnc="070">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
 
