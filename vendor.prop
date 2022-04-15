@@ -1,2 +1,5 @@
+# Bluetooth
+bluetooth.device.default_name=Xperia XZ1
+
 # Radio
 persist.vendor.radio.block_allow_data=1
