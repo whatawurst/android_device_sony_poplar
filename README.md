@@ -29,7 +29,7 @@ How to build LineageOS
             <project name="whatawurst/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" revision="lineage-19.1" />
             <project name="whatawurst/android_device_sony_poplar" path="device/sony/poplar" remote="github" revision="lineage-19.1" />
 
-            <!-- Pinned blobs for poplar -->
+            <!-- blobs for poplar -->
             <project name="whatawurst/android_vendor_sony_poplar" path="vendor/sony/poplar" remote="github" revision="lineage-19.1" />
         </manifest>
 
