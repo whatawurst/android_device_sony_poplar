@@ -18,3 +18,6 @@ ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.2.A.11.228
 ro.semc.product.name=Xperia XZ1
 ro.semc.product.device=G83
+
+## LineageOS OTA from Github
+lineage.updater.uri=https://riccardodurante.github.io/LineageOTAstatic/api/v1/{device}_{type}
